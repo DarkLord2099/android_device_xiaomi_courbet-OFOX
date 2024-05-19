@@ -22,4 +22,6 @@ PRODUCT_PACKAGES += \
     fastbootd \
     android.hardware.fastboot@1.0-impl-mock
     
-
+# Recovery Modules
+PRODUCT_HOST_PACKAGES += \
+    libandroidicu
