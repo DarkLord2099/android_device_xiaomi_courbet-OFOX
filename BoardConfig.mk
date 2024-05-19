@@ -116,6 +116,12 @@ TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 # Vibrator
 TW_SUPPORT_INPUT_AIDL_HAPTICS := true
 
+# PBRP flags
+PB_TORCH_PATH := "/sys/class/leds/led:torch_0"
+PB_DISABLE_DEFAULT_DM_VERITY := true
+PB_DISABLE_DEFAULT_TREBLE_COMP := true
+PB_FORCE_DD_FLASH := TRUE
+
 # TWRP specific build flags
 RECOVERY_SDCARD_ON_DATA := true
 TARGET_RECOVERY_QCOM_RTC_FIX := true
