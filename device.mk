@@ -25,3 +25,11 @@ PRODUCT_PACKAGES += \
 # Recovery Modules
 PRODUCT_HOST_PACKAGES += \
     libandroidicu
+    
+# Additional binaries & libraries needed for recovery
+TARGET_RECOVERY_DEVICE_MODULES += \
+    libion \
+    vendor.display.config@1.0 \
+    vendor.display.config@2.0 \
+    libdisplayconfig.qti
+
