@@ -10,4 +10,4 @@ PRODUCT_MAKEFILES := \
 COMMON_LUNCH_CHOICES := \
     pb_courbet-user \
     pb_courbet-userdebug \
-    pb_courbet-eng
+    pb_courbet-engommon
