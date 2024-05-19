@@ -113,6 +113,9 @@ PRODUCT_ENFORCE_VINTF_MANIFEST := true
 # Extras
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
+# Vibrator
+TW_SUPPORT_INPUT_AIDL_HAPTICS := true
+
 # TWRP specific build flags
 RECOVERY_SDCARD_ON_DATA := true
 TARGET_RECOVERY_QCOM_RTC_FIX := true
