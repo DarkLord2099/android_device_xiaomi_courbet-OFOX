@@ -30,6 +30,9 @@ PRODUCT_HOST_PACKAGES += \
     libandroidicu
     
 # Additional binaries & libraries needed for recovery
+RECOVERY_BINARY_SOURCE_FILES += \
+    $(TARGET_OUT_VENDOR_EXECUTABLES)/hw/vendor.qti.hardware.vibrator.service
+    
 TARGET_RECOVERY_DEVICE_MODULES += \
     libion \
     vendor.display.config@1.0 \
