@@ -11,15 +11,15 @@ DEVICE_PATH := device/xiaomi/courbet
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
-# Inherit some common PBRP stuff.
-$(call inherit-product, vendor/pb/config/common.mk)
+# Inherit some common TWRP stuff.
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from courbet device
 $(call inherit-product, device/xiaomi/courbet/device.mk)
 
 # Products For Device
 PRODUCT_DEVICE := courbet
-PRODUCT_NAME := pb_courbet
+PRODUCT_NAME := twrp_courbet
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Xiaomi 11 Lite
 PRODUCT_MANUFACTURER := xiaomi

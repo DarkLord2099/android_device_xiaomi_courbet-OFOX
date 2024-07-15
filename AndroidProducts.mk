@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/pb_courbet.mk
+    $(LOCAL_DIR)/twrp_courbet.mk
 
 COMMON_LUNCH_CHOICES := \
-    pb_courbet-user \
-    pb_courbet-userdebug \
-    pb_courbet-eng \
+    twrp_courbet-user \
+    twrp_courbet-userdebug \
+    twrp_courbet-eng
